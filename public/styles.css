@@ -1,0 +1,47 @@
+body {
+  background-color: black; 
+}
+* {
+  font-family: 'Gabarito', sans-serif;
+  color: white; 
+}
+.the-paragraph {
+  text-align: center; 
+  font-size: 27px; 
+}
+.calendar,
+.time-input,
+.pill-name {
+  font-size: 18px; 
+  color: black; 
+}
+
+.registered-dates {
+  border-left-style: solid; 
+  padding-left: 15px;
+}
+.submit, 
+.clear {
+  font-size: 16px; 
+  background-color: lightblue; 
+  border-style: solid; 
+  color: black; 
+  padding: 7px 10px; 
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+.submit:active, 
+.clear:active {
+  opacity: 0.7; 
+}
+
+.completed {
+  background-color: green; 
+}
+input {
+  display: block; 
+  margin-top: 10px; 
+  margin-bottom: 10px;
+  padding: 7px; 
+}

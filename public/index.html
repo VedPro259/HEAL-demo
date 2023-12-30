@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js'></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <p class="the-paragraph"></p>
+    <div style="display: grid; grid-template-columns: 1fr 1fr;">
+      <div style="margin-left: 10px;">
+        <form>
+          <p>*Date is required.</p>
+          <input type="name" class="pill-name" placeholder="Enter pill name(s)"></input>
+          <input type="date" class="calendar" id="myDate">
+          <input type="time" class="time-input" id="myTime">
+          
+          <p class="checking"></p>
+        </form> 
+        <button class="submit">Submit</button>
+        <button class="clear">Clear</button>
+      </div>
+
+      <div class="registered-dates"></div>      
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
